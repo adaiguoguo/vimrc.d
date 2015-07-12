@@ -1,14 +1,14 @@
-# Yiguang's Vimrc
+# adaiguoguo's Vimrc
 
-Mainly forked the major basic configuration of [amix](https://github.com/amix/vimrc). Used for
-**Python Developing**, **Ruby Assistance** is also in plan. 
+Mainly forked the major basic configuration of [lukmy](https://github.com/lukmy/vimrc.d). Used for
+**Go Developing**, **Python Developing**,**Ruby Assistance** is also in plan. 
 
 ## Installation
 
 Local Install
 
 ```shell
-$ git clone https://github.com/lukmy/vimrc.d ~/vimrc.d
+$ git clone https://github.com/adaiguoguo/vimrc.d ~/vimrc.d
 
 $ cd ~/vimrc.d
 $ ./install.sh
@@ -17,7 +17,7 @@ $ ./install.sh
 Net Install
 
 ```shell
-$ curl https://raw.githubusercontent.com/lukmy/vimrc.d/master/net_install.sh | sh
+$ curl https://raw.githubusercontent.com/adaiguoguo/vimrc.d/master/net_install.sh | sh
 ```
 
 ## Shortcuts
@@ -62,3 +62,4 @@ After adding contents, just type `:BundleInstall` in vim or `vim +BundleInstall 
 - [NERDTree](https://github.com/scrooloose/nerdtree) as file explorer
 - [Salt-Vim](https://github.com/saltstack/salt-vim) for salt formula support
 - [Tagbar](https://github.com/majutsushi/tagbar) for tag display
+- [Vim-go](https://github.com/fatih/vim-go) for vim-go

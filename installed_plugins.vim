@@ -169,3 +169,7 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'chase/vim-ansible-yaml'
 
 "Bundle 'Valloric/YouCompleteMe'
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => golang
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plugin 'fatih/vim-go'
