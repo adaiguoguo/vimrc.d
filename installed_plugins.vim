@@ -190,6 +190,7 @@ let g:neocomplete#enable_at_startup = 1
 " => Plugin 'Shougo/neosnippet'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'Shougo/neosnippet'
+let g:go_snippet_engine = "neosnippet"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin 'Shougo/neosnippet-snippets'

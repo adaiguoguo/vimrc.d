@@ -3,8 +3,8 @@
 Mainly forked the major basic configuration of [lukmy](https://github.com/lukmy/vimrc.d). Used for
 **Go Developing**, **Python Developing**,**Ruby Assistance** is also in plan. 
 
-## Installation
-
+## enstallation
+brew install vim --with-lua
 Local Install
 
 ```shell
@@ -63,3 +63,5 @@ After adding contents, just type `:BundleInstall` in vim or `vim +BundleInstall 
 - [Salt-Vim](https://github.com/saltstack/salt-vim) for salt formula support
 - [Tagbar](https://github.com/majutsushi/tagbar) for tag display
 - [Vim-go](https://github.com/fatih/vim-go) for vim-go
+- [vim-surround](https://github.com/tpope/vim-surround) for quoting/parenthesizing made simple
+- [neocomplete.vim](https://github.com/Shougo/neocomplete.vim) for go-complete
