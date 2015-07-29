@@ -62,8 +62,4 @@ After adding contents, just type `:BundleInstall` in vim or `vim +BundleInstall 
 - [NERDTree](https://github.com/scrooloose/nerdtree) as file explorer
 - [Salt-Vim](https://github.com/saltstack/salt-vim) for salt formula support
 - [Tagbar](https://github.com/majutsushi/tagbar) for tag display
-- [Vim-go](https://github.com/fatih/vim-go) for vim-go
 - [vim-surround](https://github.com/tpope/vim-surround) for quoting/parenthesizing made simple
-- [neocomplete.vim](https://github.com/Shougo/neocomplete.vim) for go-complete
-- [neosnippet](https://github.com/Shougo/neosnippet) for with neocomplete
-- [neosnippet-snippets](https://github.com/Shougo/neosnippet-snippets) for with neosnippet
