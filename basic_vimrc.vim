@@ -170,7 +170,7 @@ set listchars=tab:\|\ ,trail:_
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable 
+syntax enable
 
 set t_Co=256
 
@@ -574,3 +574,17 @@ endfunc
 " => Special Filetype amend
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd! bufnewfile,bufreadpost,bufwritepost *.md set ft=markdown
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim-go Settings 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
